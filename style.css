@@ -14,6 +14,7 @@ body {
     background: #222436;
     padding: 30px;
     text-align: center;
+    border-radius: 5px;
 }
 .generate-btn {
     margin-top: 140px;
@@ -31,7 +32,10 @@ body {
     outline: none;
     box-shadow: none;
 }
-
+.generate-btn:hover {
+    background-color: #425062;
+    transition: all 0.2s ease-in-out;
+}
 input[type="text"] {
     background-color: #3d4153;
     padding: 10px 0px;
@@ -41,6 +45,11 @@ input[type="text"] {
     border: 2px solid #858299;
     height: 50px;
     padding: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 5px;
 }
 input[type="text"]:focus {
     background-color: #3d4153;
@@ -50,18 +59,15 @@ input[type="text"]:focus {
 .numbers {
     margin: 30px 0;
 }
-
 .calc-typed {
     margin-top: 20px;
     font-size: 45px;
     text-align: right;
     color: #fff;
 }
-
 .calc-button-row {
     width: 100%;
 }
-
 .button {
     width: 20%;
     background: #425062;
@@ -76,6 +82,10 @@ input[type="text"]:focus {
     border-radius: 10px;
     cursor: pointer;
 }
+.button:hover {
+    background-color: #495bc3;
+    transition: 0.2s ease-in-out;
+}
 .blink-me {
     color: #e0b612;
 }
@@ -86,6 +96,13 @@ input[type="text"]:focus {
     border-radius: 5px;
     background: #495bc3;
     color: #fff;
+}
+.imput-form {
+    background-color: #1a1b1f;
+}
+.submit-btn:hover {
+    background-color: #425062;
+    transition: all 0.2s ease-in-out;
 }
 .notify {
     color: #fff;
@@ -99,6 +116,7 @@ input[type="text"]:focus {
 .notify-section {
     width: 35%;
     margin: 0 auto;
+    display: none;
 }
 .action-left {
     color: #ff3c5f;
