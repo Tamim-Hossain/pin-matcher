@@ -6,7 +6,7 @@ body {
     height: 100vh;
 }
 .container {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .half-width {
@@ -109,14 +109,14 @@ input[type="text"]:focus {
     text-align: center;
     margin: 0 auto;
     background: #222436;
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 15px;
     padding: 5px 20px;
+    display: none;
 }
 .notify-section {
     width: 35%;
     margin: 0 auto;
-    display: none;
 }
 .action-left {
     color: #ff3c5f;
